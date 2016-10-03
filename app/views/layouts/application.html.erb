@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VoiceSpotify</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://developer.spotify.com/web-api/static/css/cached.css">
+</head>
+<body>
+
+<%= yield %>
+
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/annyang/1.4.0/annyang.min.js"></script>
+</body>
+</html>
